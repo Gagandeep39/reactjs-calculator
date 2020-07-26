@@ -37,7 +37,7 @@ class App extends Component {
 
   clearResult = () => {
     this.setState({
-      result: '',
+      result: '0',
     });
   };
 
