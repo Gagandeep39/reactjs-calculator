@@ -16,12 +16,12 @@
 .col:hover,
 .col-9:hover,
 .col-3:hover {
-  background: salmon;
+  background: #ff3377;
 }
 
 .formula {
   color: white;
-  background: #FF3366;
+  background: #FF0066;
   /* background-clip: padding-box; */
   border: 0.5px solid black;
 }
