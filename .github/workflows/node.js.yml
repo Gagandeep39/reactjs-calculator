@@ -40,4 +40,3 @@ jobs:
         user_email: 'github-actions[bot]@users.noreply.github.com'
         github_token: ${{ secrets.ACCESS_TOKEN }}
         repository: ${{ github.repository }}
-        CI: false # Prevent warning as error
