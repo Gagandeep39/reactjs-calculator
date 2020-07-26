@@ -1,8 +1,11 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import classes from  './Result.component.css'
+
 const ResultComponent = (props) => {
   return (
-    <div className='result'>
-      <p>{props.result}</p>
+    <div className='container result'>
+      {props.result}
     </div>
   );
 };
