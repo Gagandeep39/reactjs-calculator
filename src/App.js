@@ -15,7 +15,6 @@ class App extends Component {
     console.log(buttonType);
     if (buttonType === '=') this.calculateResult();
     else if (buttonType === 'C') this.clearResult();
-    else if (buttonType === 'CE') this.backspace();
     else {
       this.setState({
         result: this.state.result + buttonType,
@@ -39,12 +38,6 @@ class App extends Component {
     this.setState({
       result: '0',
     });
-  };
-
-  backspace = () => {
-    let equation = this.state.result;
-    equation.slice(0, 1);
-    this.setState({ result: equation });
   };
 
   render() {
