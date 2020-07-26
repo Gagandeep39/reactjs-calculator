@@ -1,0 +1,27 @@
+.container {
+  background: red;
+}
+
+.col,
+.col-9,
+.col-3 {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  background-color: white;
+  background-clip: padding-box;
+  border: 0.5px solid transparent;
+}
+
+.col:hover,
+.col-9:hover,
+.col-3:hover {
+  background: salmon;
+}
+
+.formula {
+  color: white;
+  background: #FF3366;
+  /* background-clip: padding-box; */
+  border: 0.5px solid black;
+}
