@@ -14,11 +14,11 @@ const KeypadComponent = (props) => {
           C
         </button>
         <button
-          name='CE'
+          name='='
           className='col-3 formula'
           onClick={(event) => props.buttonClick(event.target.name)}
         >
-          CE
+          =
         </button>
       </div>
 
@@ -125,17 +125,10 @@ const KeypadComponent = (props) => {
         </button>
         <button
           name='0'
-          className='col'
+          className='col-6'
           onClick={(event) => props.buttonClick(event.target.name)}
         >
           0
-        </button>
-        <button
-          name='='
-          className='col'
-          onClick={(event) => props.buttonClick(event.target.name)}
-        >
-          =
         </button>
         <button
           name='/'

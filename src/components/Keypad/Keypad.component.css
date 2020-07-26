@@ -4,6 +4,7 @@
 
 .col,
 .col-9,
+.col-6,
 .col-3 {
   color: black;
   font-weight: bold;
@@ -15,6 +16,7 @@
 
 .col:hover,
 .col-9:hover,
+.col-6:hover,
 .col-3:hover {
   background: #ff3377;
 }
