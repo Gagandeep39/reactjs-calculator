@@ -1,12 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import ResultComponent from './components/Result/ResultComponent';
+import KeypadComponent from './components/Keypad/KeypadComponent';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+class App extends Component {
+
+  handleClick = (buttonType) => {
+    console.log(buttonType);
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>Calculator</h1>
+        <ResultComponent />
+        <KeypadComponent buttonClick={this.handleClick} />
+      </div>
+    );
+  }
 }
 
 export default App;
